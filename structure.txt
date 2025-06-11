@@ -1,0 +1,27 @@
+voice_assistant_project/
+├── requirements.txt
+├── config.py
+├── main.py
+├── app.py (Flask web server)
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── voice_widget.js
+├── templates/
+│   └── index.html
+├── src/
+│   ├── __init__.py
+│   ├── speech_to_text.py
+│   ├── text_to_speech.py
+│   ├── llm_handler.py
+│   ├── rag_engine.py
+│   ├── memory_manager.py
+│   ├── intent_recognizer.py
+│   └── voice_assistant.py
+├── data/
+│   ├── documents/
+│   └── embeddings/
+├── prompts/
+│   └── assistant_prompt.txt
+└── README.md
